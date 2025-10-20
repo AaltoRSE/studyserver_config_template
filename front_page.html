@@ -7,7 +7,7 @@
     <h1> Study Page Example </h1>
     <p> You can use any normal HTML on this page. Static files like images are not yet supported, but you can include images from a url. </p>
 
-    <img src="{{ study.raw_content_base_url }}study_logo.png" alt="Study Logo" width="500">
+    <img src="{{ config_repository }}study_logo.png" alt="Study Logo" width="500">
     
     {% if user.is_authenticated and user.profile.user_type == 'participant' %}
         <a href="{% url 'join_study' study.id %}">
