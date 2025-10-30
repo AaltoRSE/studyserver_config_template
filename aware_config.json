@@ -7,17 +7,6 @@
     "researcher_last": "test",
     "researcher_contact": "test"
   },
-  "database": {
-    "database_host": "138.197.176.233",
-    "database_port": "3306",
-    "database_name": "aware_db",
-    "database_username": "aware_insert",
-    "database_password": "insertpassword123",
-    "rootUsername": "-",
-    "rootPassword": "-",
-    "config_without_password": false,
-    "require_ssl": false
-  },
   "createdAt": "2025-09-09T06:19:11.802Z",
   "updatedAt": "2025-09-14T12:48:05.269Z",
   "questions": [
