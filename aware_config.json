@@ -1,5 +1,5 @@
 {
-  "_id": "9f3c23e4-fa4f-4999-aa59-8b42b9e40c51",
+  "_id": "b3508776-2086-43e0-9fbf-a39bf8eda1ed",
   "study_info": {
     "study_title": "test",
     "study_description": "test",
@@ -7,18 +7,41 @@
     "researcher_last": "test",
     "researcher_contact": "test"
   },
-  "createdAt": "2025-09-09T06:19:11.802Z",
-  "updatedAt": "2025-09-14T12:48:05.269Z",
+  "database": {
+    "database_host": "138.197.176.233",
+    "database_name": "aware_db",
+    "database_port": "3306",
+    "database_username": "aware_insert",
+    "database_password": "insertpassword123",
+    "rootUsername": "-",
+    "rootPassword": "-",
+    "config_without_password": false,
+    "require_ssl": false
+  },
+  "createdAt": "2025-10-09T11:52:26.913Z",
+  "updatedAt": "2025-11-11T09:05:22.984Z",
   "questions": [
     {
       "esm_submit": "Submit",
       "esm_title": "Q1: how are you u?",
+      "esm_type": 3,
+      "esm_checkboxes": [
+        "good",
+        "ok",
+        "bad"
+      ],
+      "esm_notification_timeout": 600,
+      "id": 1
+    },
+    {
+      "esm_submit": "Submit",
+      "esm_title": "How many hours did you sleep last night",
       "esm_type": 4,
-      "esm_likert_max": 10,
-      "esm_likert_min_label": "1",
-      "id": 1,
-      "esm_expiration_threshold": 6000,
-      "esm_notification_timeout": 6000
+      "esm_likert_max": 24,
+      "esm_likert_min_label": "",
+      "esm_likert_max_label": "24",
+      "esm_notification_timeout": 600,
+      "id": 2
     }
   ],
   "schedules": [
@@ -27,7 +50,8 @@
       "type": "repeat",
       "esm_keep": true,
       "questions": [
-        1
+        1,
+        2
       ],
       "repeatInterval": 1
     }
@@ -39,7 +63,7 @@
     },
     {
       "setting": "webservice_charging",
-      "value": true
+      "value": false
     },
     {
       "setting": "frequency_webservice",
@@ -47,7 +71,7 @@
     },
     {
       "setting": "frequency_clean_old_data",
-      "value": "1"
+      "value": "2"
     },
     {
       "setting": "webservice_silent",
@@ -98,7 +122,7 @@
       "value": true
     },
     {
-      "setting": "mask_notification",
+      "setting": "mask_notification_text",
       "value": false
     },
     {
@@ -107,7 +131,7 @@
     },
     {
       "setting": "mask_touch_text",
-      "value": false
+      "value": true
     },
     {
       "setting": "status_screentext",
@@ -115,11 +139,11 @@
     },
     {
       "setting": "package_specification",
-      "value": "1"
+      "value": "2"
     },
     {
       "setting": "package_names",
-      "value": "com.android.systemui,com.aware.phone"
+      "value": ""
     },
     {
       "setting": "status_battery",
@@ -415,11 +439,11 @@
     },
     {
       "setting": "screenshot_package_names",
-      "value": "com.android.systemui,com.aware.phone"
+      "value": ""
     },
     {
       "setting": "screenshot_package_specification",
-      "value": "1"
+      "value": "2"
     },
     {
       "setting": "status_notes",
