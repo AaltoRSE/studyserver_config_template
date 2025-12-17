@@ -187,7 +187,7 @@
     },
     {
       "setting": "frequency_timezone",
-      "value": 2000
+      "value": 200000
     },
     {
       "setting": "status_accelerometer",
@@ -195,7 +195,7 @@
     },
     {
       "setting": "frequency_accelerometer",
-      "value": 2000
+      "value": 20000
     },
     {
       "setting": "threshold_accelerometer",
@@ -211,7 +211,7 @@
     },
     {
       "setting": "frequency_barometer",
-      "value": 2000
+      "value": 20000
     },
     {
       "setting": "threshold_barometer",
@@ -235,7 +235,7 @@
     },
     {
       "setting": "frequency_gravity",
-      "value": 2000
+      "value": 20000
     },
     {
       "setting": "threshold_gravity",
@@ -251,7 +251,7 @@
     },
     {
       "setting": "frequency_gyroscope",
-      "value": 2000
+      "value": 20000
     },
     {
       "setting": "threshold_gyroscope",
@@ -267,7 +267,7 @@
     },
     {
       "setting": "frequency_light",
-      "value": 2000
+      "value": 20000
     },
     {
       "setting": "threshold_light",
@@ -283,7 +283,7 @@
     },
     {
       "setting": "frequency_linear_accelerometer",
-      "value": 2000
+      "value": 20000
     },
     {
       "setting": "threshold_linear_accelerometer",
@@ -339,7 +339,7 @@
     },
     {
       "setting": "frequency_magnetometer",
-      "value": 2000
+      "value": 20000
     },
     {
       "setting": "threshold_magnetometer",
@@ -371,7 +371,7 @@
     },
     {
       "setting": "frequency_proximity",
-      "value": 2000
+      "value": 20000
     },
     {
       "setting": "threshold_proximity",
@@ -387,7 +387,7 @@
     },
     {
       "setting": "frequency_rotation",
-      "value": 2000
+      "value": 20000
     },
     {
       "setting": "threshold_rotation",
@@ -403,7 +403,7 @@
     },
     {
       "setting": "frequency_temperature",
-      "value": 2000
+      "value": 20000
     },
     {
       "setting": "threshold_temperature",
