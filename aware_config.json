@@ -195,15 +195,15 @@
     },
     {
       "setting": "frequency_accelerometer",
-      "value": 20000
+      "value": 200000
     },
     {
       "setting": "threshold_accelerometer",
-      "value": 0
+      "value": 0.01
     },
     {
       "setting": "frequency_accelerometer_enforce",
-      "value": false
+      "value": true
     },
     {
       "setting": "status_barometer",
