@@ -199,7 +199,7 @@
     },
     {
       "setting": "threshold_accelerometer",
-      "value": 0.01
+      "value": 1
     },
     {
       "setting": "frequency_accelerometer_enforce",
