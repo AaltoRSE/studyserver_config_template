@@ -1,11 +1,11 @@
 {
-  "_id": "b3508776-2086-43e0-9fbf-a39bf8eda1ed",
+  "_id": "PolAlpha",
   "study_info": {
-    "study_title": "test",
-    "study_description": "test",
-    "researcher_first": "test",
-    "researcher_last": "test",
-    "researcher_contact": "test"
+    "study_title": "Polalpha",
+    "study_description": "Alpha study for POLWELL and POLEMIC",
+    "researcher_first": "Jarno",
+    "researcher_last": "Rantaharju",
+    "researcher_contact": "<jarno.rantaharju@aalto.fi>"
   },
   "database": {
     "database_host": "138.197.176.233",
@@ -18,8 +18,8 @@
     "config_without_password": "false",
     "require_ssl": "false"
   },
-  "createdAt": "2025-10-09T11:52:26.913Z",
-  "updatedAt": "2026-01-23T09:05:22.984Z",
+  "createdAt": "",
+  "updatedAt": "2026-01-23T13:27:16.047Z",
   "questions": [
     {
       "esm_submit": "Submit",
@@ -175,7 +175,7 @@
     },
     {
       "setting": "status_touch",
-      "value": "true"
+      "value": false
     },
     {
       "setting": "status_telephony",
@@ -347,7 +347,7 @@
     },
     {
       "setting": "frequency_magnetometer_enforce",
-      "value": "true"
+      "value": false
     },
     {
       "setting": "network",
@@ -467,7 +467,7 @@
     },
     {
       "setting": "status_plugin_openweather",
-      "value": "false"
+      "value": false
     },
     {
       "setting": "plugin_openweather_frequency",
@@ -483,15 +483,11 @@
     },
     {
       "setting": "status_esm",
-      "value": "true"
+      "value": true
     },
     {
       "setting": "status_webservice",
-      "value": "true"
-    },
-    {
-      "setting": "enforce_frequency_all",
-      "value": "true"
+      "value": true
     }
   ]
 }
