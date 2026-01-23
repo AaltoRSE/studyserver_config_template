@@ -219,7 +219,7 @@
     },
     {
       "setting": "frequency_barometer_enforce",
-      "value": false
+      "value": true
     },
     {
       "setting": "status_bluetooth",
@@ -243,7 +243,7 @@
     },
     {
       "setting": "frequency_gravity_enforce",
-      "value": false
+      "value": true
     },
     {
       "setting": "status_gyroscope",
@@ -259,7 +259,7 @@
     },
     {
       "setting": "frequency_gyroscope_enforce",
-      "value": false
+      "value": true
     },
     {
       "setting": "status_light",
@@ -275,7 +275,7 @@
     },
     {
       "setting": "frequency_light_enforce",
-      "value": false
+      "value": true
     },
     {
       "setting": "status_linear_accelerometer",
@@ -291,7 +291,7 @@
     },
     {
       "setting": "frequency_linear_accelerometer_enforce",
-      "value": false
+      "value": true
     },
     {
       "setting": "location",
@@ -347,7 +347,7 @@
     },
     {
       "setting": "frequency_magnetometer_enforce",
-      "value": false
+      "value": true
     },
     {
       "setting": "network",
@@ -379,7 +379,7 @@
     },
     {
       "setting": "frequency_proximity_enforce",
-      "value": false
+      "value": true
     },
     {
       "setting": "status_rotation",
@@ -395,7 +395,7 @@
     },
     {
       "setting": "frequency_rotation_enforce",
-      "value": false
+      "value": true
     },
     {
       "setting": "status_temperature",
@@ -411,7 +411,7 @@
     },
     {
       "setting": "frequency_temperature_enforce",
-      "value": false
+      "value": true
     },
     {
       "setting": "status_wifi",
