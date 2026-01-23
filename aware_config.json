@@ -207,7 +207,7 @@
     },
     {
       "setting": "status_barometer",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_barometer",
@@ -223,7 +223,7 @@
     },
     {
       "setting": "status_bluetooth",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_bluetooth",
