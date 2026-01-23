@@ -15,8 +15,8 @@
     "database_password": "insertpassword123",
     "rootUsername": "-",
     "rootPassword": "-",
-    "config_without_password": false,
-    "require_ssl": false
+    "config_without_password": "false",
+    "require_ssl": "false"
   },
   "createdAt": "2025-10-09T11:52:26.913Z",
   "updatedAt": "2025-11-11T09:05:22.984Z",
@@ -48,7 +48,7 @@
     {
       "title": "Q1: how are you u?",
       "type": "repeat",
-      "esm_keep": true,
+      "esm_keep": "true",
       "questions": [
         1,
         2
@@ -59,11 +59,11 @@
   "sensors": [
     {
       "setting": "webservice_wifi_only",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "webservice_charging",
-      "value": false
+      "value": "false"
     },
     {
       "setting": "frequency_webservice",
@@ -75,7 +75,7 @@
     },
     {
       "setting": "webservice_silent",
-      "value": false
+      "value": "false"
     },
     {
       "setting": "fallback_network",
@@ -83,15 +83,15 @@
     },
     {
       "setting": "remind_to_charge",
-      "value": false
+      "value": "false"
     },
     {
       "setting": "foreground_priority",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "debug_flag",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_sync_config",
@@ -99,19 +99,19 @@
     },
     {
       "setting": "enable_config_update",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_applications",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_notifications",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_crashes",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_applications",
@@ -119,23 +119,23 @@
     },
     {
       "setting": "status_keyboard",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "mask_notification_text",
-      "value": false
+      "value": "false"
     },
     {
       "setting": "mask_keyboard",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "mask_touch_text",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_screentext",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "package_specification",
@@ -147,43 +147,43 @@
     },
     {
       "setting": "status_battery",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "communication",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_communication_events",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_calls",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_messages",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_installations",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_screen",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_touch",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_telephony",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_timezone",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_timezone",
@@ -191,7 +191,7 @@
     },
     {
       "setting": "status_accelerometer",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_accelerometer",
@@ -203,7 +203,7 @@
     },
     {
       "setting": "frequency_accelerometer_enforce",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_barometer",
@@ -219,7 +219,7 @@
     },
     {
       "setting": "frequency_barometer_enforce",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_bluetooth",
@@ -231,7 +231,7 @@
     },
     {
       "setting": "status_gravity",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_gravity",
@@ -243,11 +243,11 @@
     },
     {
       "setting": "frequency_gravity_enforce",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_gyroscope",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_gyroscope",
@@ -259,11 +259,11 @@
     },
     {
       "setting": "frequency_gyroscope_enforce",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_light",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_light",
@@ -275,11 +275,11 @@
     },
     {
       "setting": "frequency_light_enforce",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_linear_accelerometer",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_linear_accelerometer",
@@ -291,19 +291,19 @@
     },
     {
       "setting": "frequency_linear_accelerometer_enforce",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "location",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_location_gps",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_location_network",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_gps",
@@ -327,15 +327,15 @@
     },
     {
       "setting": "status_location_passive",
-      "value": false
+      "value": "false"
     },
     {
       "setting": "location_save_all",
-      "value": false
+      "value": "false"
     },
     {
       "setting": "status_magnetometer",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_magnetometer",
@@ -347,27 +347,27 @@
     },
     {
       "setting": "frequency_magnetometer_enforce",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "network",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_network_events",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_network_traffic",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_processor",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_proximity",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_proximity",
@@ -379,11 +379,11 @@
     },
     {
       "setting": "frequency_proximity_enforce",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_rotation",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_rotation",
@@ -395,11 +395,11 @@
     },
     {
       "setting": "frequency_rotation_enforce",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_temperature",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_temperature",
@@ -411,11 +411,11 @@
     },
     {
       "setting": "frequency_temperature_enforce",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_wifi",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "frequency_wifi",
@@ -423,7 +423,7 @@
     },
     {
       "setting": "status_screenshot",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "capture_time_interval",
@@ -435,7 +435,7 @@
     },
     {
       "setting": "status_screenshot_local_storage",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "screenshot_package_names",
@@ -447,11 +447,11 @@
     },
     {
       "setting": "status_notes",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_plugin_ambient_noise",
-      "value": false
+      "value": "false"
     },
     {
       "setting": "frequency_plugin_ambient_noise",
@@ -467,7 +467,7 @@
     },
     {
       "setting": "status_plugin_openweather",
-      "value": false
+      "value": "false"
     },
     {
       "setting": "plugin_openweather_frequency",
@@ -483,11 +483,15 @@
     },
     {
       "setting": "status_esm",
-      "value": true
+      "value": "true"
     },
     {
       "setting": "status_webservice",
-      "value": true
+      "value": "true"
+    },
+    {
+      "setting": "enforce_frequency_all",
+      "value": "true"
     }
   ]
 }
