@@ -307,11 +307,11 @@
     },
     {
       "setting": "frequency_gps",
-      "value": 180
+      "value": 60
     },
     {
       "setting": "frequency_network",
-      "value": 300
+      "value": 60
     },
     {
       "setting": "min_location_gps_accuracy",
@@ -427,7 +427,7 @@
     },
     {
       "setting": "capture_time_interval",
-      "value": 5
+      "value": 86400
     },
     {
       "setting": "compress_rate",
