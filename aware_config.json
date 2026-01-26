@@ -439,11 +439,11 @@
     },
     {
       "setting": "screenshot_package_names",
-      "value": ""
+      "value": "com.instagram.android,com.zhiliaoapp.musically,com.ss.android.ugc.trill,com.google.android.youtube"
     },
     {
       "setting": "screenshot_package_specification",
-      "value": "2"
+      "value": "0"
     },
     {
       "setting": "status_notes",
