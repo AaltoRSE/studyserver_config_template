@@ -427,7 +427,7 @@
     },
     {
       "setting": "capture_time_interval",
-      "value": 3600
+      "value": 5
     },
     {
       "setting": "compress_rate",
