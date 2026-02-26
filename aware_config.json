@@ -53,7 +53,7 @@
         1,
         2
       ],
-      "repeatInterval": 86400
+      "repeatInterval": 1
     }
   ],
   "sensors": [
