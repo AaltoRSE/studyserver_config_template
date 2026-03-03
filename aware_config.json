@@ -19,7 +19,7 @@
     "require_ssl": "false"
   },
   "createdAt": "",
-  "updatedAt": "2026-02-26T11:27:16.047Z",
+  "updatedAt": "2026-03-03T14:21:16.047Z",
   "questions": [
     {
       "esm_submit": "Submit",
@@ -53,7 +53,7 @@
         1,
         2
       ],
-      "repeatInterval": 1
+      "repeatInterval": 86400
     }
   ],
   "sensors": [
@@ -81,54 +81,7 @@
       "setting": "enable_config_update",
       "value": "true"
     },
-    {
-      "setting": "status_applications",
-      "value": "true"
-    },
-    {
-      "setting": "status_notifications",
-      "value": "true"
-    },
-    {
-      "setting": "status_crashes",
-      "value": "true"
-    },
-    {
-      "setting": "frequency_applications",
-      "value": 30
-    },
-    {
-      "setting": "status_keyboard",
-      "value": "true"
-    },
-    {
-      "setting": "mask_notification_text",
-      "value": "false"
-    },
-    {
-      "setting": "mask_keyboard",
-      "value": "true"
-    },
-    {
-      "setting": "mask_touch_text",
-      "value": "true"
-    },
-    {
-      "setting": "status_screentext",
-      "value": "true"
-    },
-    {
-      "setting": "package_specification",
-      "value": "2"
-    },
-    {
-      "setting": "package_names",
-      "value": ""
-    },
-    {
-      "setting": "status_battery",
-      "value": "true"
-    },
+    
     {
       "setting": "communication",
       "value": "true"
@@ -146,19 +99,31 @@
       "value": "true"
     },
     {
-      "setting": "status_installations",
+      "setting": "status_applications",
+      "value": "true"
+    },
+    {
+      "setting": "status_notifications",
+      "value": "true"
+    },
+    {
+      "setting": "frequency_applications",
+      "value": 30
+    },
+    {
+      "setting": "mask_notification_text",
+      "value": "false"
+    },
+    {
+      "setting": "status_screentext",
+      "value": "true"
+    },
+    {
+      "setting": "status_battery",
       "value": "true"
     },
     {
       "setting": "status_screen",
-      "value": "true"
-    },
-    {
-      "setting": "status_touch",
-      "value": false
-    },
-    {
-      "setting": "status_telephony",
       "value": "true"
     },
     {
@@ -183,78 +148,6 @@
     },
     {
       "setting": "frequency_accelerometer_enforce",
-      "value": "true"
-    },
-    {
-      "setting": "status_barometer",
-      "value": "true"
-    },
-    {
-      "setting": "frequency_barometer",
-      "value": 200000
-    },
-    {
-      "setting": "threshold_barometer",
-      "value": 0
-    },
-    {
-      "setting": "frequency_barometer_enforce",
-      "value": "true"
-    },
-    {
-      "setting": "status_bluetooth",
-      "value": "true"
-    },
-    {
-      "setting": "frequency_bluetooth",
-      "value": 60
-    },
-    {
-      "setting": "status_gravity",
-      "value": "true"
-    },
-    {
-      "setting": "frequency_gravity",
-      "value": 200000
-    },
-    {
-      "setting": "threshold_gravity",
-      "value": 0
-    },
-    {
-      "setting": "frequency_gravity_enforce",
-      "value": "true"
-    },
-    {
-      "setting": "status_gyroscope",
-      "value": "true"
-    },
-    {
-      "setting": "frequency_gyroscope",
-      "value": 200000
-    },
-    {
-      "setting": "threshold_gyroscope",
-      "value": 0
-    },
-    {
-      "setting": "frequency_gyroscope_enforce",
-      "value": "true"
-    },
-    {
-      "setting": "status_light",
-      "value": "true"
-    },
-    {
-      "setting": "frequency_light",
-      "value": 200000
-    },
-    {
-      "setting": "threshold_light",
-      "value": 0
-    },
-    {
-      "setting": "frequency_light_enforce",
       "value": "true"
     },
     {
@@ -314,94 +207,6 @@
       "value": "false"
     },
     {
-      "setting": "status_magnetometer",
-      "value": "true"
-    },
-    {
-      "setting": "frequency_magnetometer",
-      "value": 200000
-    },
-    {
-      "setting": "threshold_magnetometer",
-      "value": 0
-    },
-    {
-      "setting": "frequency_magnetometer_enforce",
-      "value": false
-    },
-    {
-      "setting": "network",
-      "value": "true"
-    },
-    {
-      "setting": "status_network_events",
-      "value": "true"
-    },
-    {
-      "setting": "status_network_traffic",
-      "value": "true"
-    },
-    {
-      "setting": "status_processor",
-      "value": "true"
-    },
-    {
-      "setting": "status_proximity",
-      "value": "true"
-    },
-    {
-      "setting": "frequency_proximity",
-      "value": 200000
-    },
-    {
-      "setting": "threshold_proximity",
-      "value": 0
-    },
-    {
-      "setting": "frequency_proximity_enforce",
-      "value": "true"
-    },
-    {
-      "setting": "status_rotation",
-      "value": "true"
-    },
-    {
-      "setting": "frequency_rotation",
-      "value": 200000
-    },
-    {
-      "setting": "threshold_rotation",
-      "value": 0
-    },
-    {
-      "setting": "frequency_rotation_enforce",
-      "value": "true"
-    },
-    {
-      "setting": "status_temperature",
-      "value": "true"
-    },
-    {
-      "setting": "frequency_temperature",
-      "value": 200000
-    },
-    {
-      "setting": "threshold_temperature",
-      "value": 0
-    },
-    {
-      "setting": "frequency_temperature_enforce",
-      "value": "true"
-    },
-    {
-      "setting": "status_wifi",
-      "value": "true"
-    },
-    {
-      "setting": "frequency_wifi",
-      "value": 60
-    },
-    {
       "setting": "status_screenshot",
       "value": "true"
     },
@@ -422,52 +227,8 @@
       "value": "com.instagram.android,com.zhiliaoapp.musically,com.ss.android.ugc.trill,com.google.android.youtube"
     },
     {
-      "setting": "screenshot_package_specification",
-      "value": "0"
-    },
-    {
-      "setting": "status_notes",
-      "value": "true"
-    },
-    {
-      "setting": "status_plugin_ambient_noise",
-      "value": "false"
-    },
-    {
-      "setting": "frequency_plugin_ambient_noise",
-      "value": 5
-    },
-    {
-      "setting": "plugin_ambient_noise_sample_size",
-      "value": 30
-    },
-    {
-      "setting": "plugin_ambient_noise_silence_threshold",
-      "value": 50
-    },
-    {
-      "setting": "status_plugin_openweather",
-      "value": false
-    },
-    {
-      "setting": "plugin_openweather_frequency",
-      "value": 30
-    },
-    {
-      "setting": "plugin_openweather_api_key",
-      "value": ""
-    },
-    {
-      "setting": "plugin_openweather_measurement_units",
-      "value": "metric"
-    },
-    {
       "setting": "status_esm",
       "value": true
     },
-    {
-      "setting": "status_webservice",
-      "value": true
-    }
   ]
 }
